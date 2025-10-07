@@ -211,8 +211,6 @@ Sign in to **Client-1** as `mydomain.com\jane_admin`:
 Back on **DC-1** as **jane_admin**:
 
 - Open **PowerShell ISE (Admin)**
-- **New Script** → paste the following (public) script:
-  - https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
 - Click the **green arrow** to run it
 
 <p align="center">
@@ -236,7 +234,7 @@ Test logging into **Client-1** with one of them (e.g., `base.milu` / `Password1`
 
 ---
 
-## ✅ Result
+##  Result
 
 - New **forest** (`mydomain.com`) running in Azure  
 - **Client VM** joined to the domain and RDP-enabled for domain users  
